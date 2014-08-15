@@ -1,0 +1,68 @@
+
+#system_admin_menu {
+    display: block;
+    height: 50px;
+    top: 0;
+    width: 400px;
+}
+ul.system_admin_menu_dropdown {
+    list-style: none outside none;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+}
+ul.system_admin_menu_dropdown li {
+    background: none repeat scroll 0 0 #CCCCCC;
+    float: left;
+    font-weight: bold;
+    padding: 4px 8px;
+}
+ul.system_admin_menu_dropdown a:hover {
+    color: #000000;
+}
+ul.system_admin_menu_dropdown a:active {
+    color: #FFA500;
+}
+ul.system_admin_menu_dropdown li a {
+    border-right: 1px solid #333333;
+    color: #222222;
+    display: block;
+    padding: 4px 8px;
+}
+ul.system_admin_menu_dropdown li:last-child a {
+    border-right: medium none;
+}
+ul.system_admin_menu_dropdown li.hover, ul.system_admin_menu_dropdown li:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    position: relative;
+}
+ul.system_admin_menu_dropdown li.hover a {
+    color: #000000;
+}
+ul.system_admin_menu_dropdown ul {
+    left: -40px;
+    list-style: none outside none;
+    position: absolute;
+    top: 100%;
+    visibility: hidden;
+    width: 220px;
+}
+ul.system_admin_menu_dropdown ul li {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-bottom: 1px solid #CCCCCC;
+    float: none;
+    font-weight: normal;
+}
+ul.system_admin_menu_dropdown ul li a {
+    border-right: medium none;
+    display: inline-block;
+    width: 100%;
+}
+ul.system_admin_menu_dropdown ul ul {
+    left: 100%;
+    top: 0;
+}
+ul.system_admin_menu_dropdown li:hover > ul {
+    visibility: visible;
+}

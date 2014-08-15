@@ -1,0 +1,22 @@
+
+table.account_profile {
+    margin-bottom: 10px;
+    vertical-align: top;
+    width: 400px;
+    border: 2px solid #000;
+}
+table.account_profile tbody tr td {
+    background-color: #fff;
+    border-collapse: collapse;
+    color: #000;
+    margin: 0;
+    text-align: left;
+
+}
+img.account_profile {
+
+    text-decoration: none;
+}
+.account_profile {
+    width: 200px;
+}
